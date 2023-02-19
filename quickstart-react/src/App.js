@@ -34,24 +34,19 @@ const App = () => {
     {
         text: "Hello",
         color: "red",
+        user_id: 1,
     },
     {
         text: "World",
         color: "blue",
+        user_id: 2,
     },
 ];
 
   return (
     <>
     <div className="App">
-      <AttentionBox
-        title="Hello Monday Apps!"
-        text="This is a simple example of a monday app, which uses monday-ui-react-core components."
-        type="success"
-      />
-    </div>
-    <div>
-      <DisplayTextBubbles text_bubbles={text_bubbles}/>
+    <DisplayTextBubbles text_bubbles={text_bubbles}/>
     </div>
     </>
   );
