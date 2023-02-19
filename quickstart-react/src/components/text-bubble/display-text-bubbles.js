@@ -1,7 +1,8 @@
 import TextBubble from "./text-bubble";
 import "./text-bubble.css"
 
-//create an array of text_bubble objects
+//component to display the text bubbles from database based on number of posts in database
+//text_bubbles is an array of objects with text and user_id
 
 const DisplayTextBubbles = ({ text_bubbles }) => {
   return (

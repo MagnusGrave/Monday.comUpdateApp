@@ -30,6 +30,8 @@ const App = () => {
   }.
   Let's start building your amazing app, which will change the world!`;
 
+  //Test data for text bubbles
+  //TODO: replace with actual data from database
   const text_bubbles = [
     {
         text: "Hello",
