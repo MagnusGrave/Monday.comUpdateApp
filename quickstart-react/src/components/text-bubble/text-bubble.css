@@ -1,0 +1,50 @@
+.text-bubble {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #f1f0f0;
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 1.5;
+  max-width: 300px;
+}
+
+.display-text-bubble {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.display-text-bubbles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.text-bubble__arrow--left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    border-color: #f1f0f0 transparent transparent transparent;
+}
+
+.text-bubble__arrow--right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 0 10px;
+    border-color: #f1f0f0 transparent transparent transparent;
+}

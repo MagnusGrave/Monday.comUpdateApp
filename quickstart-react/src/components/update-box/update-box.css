@@ -1,0 +1,22 @@
+.update-box {
+    border: 1px solid #f44336;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    }
+
+.update-box__title {
+    font-weight: bold;
+    }
+
+.update-box__content {
+    margin: 10px 0;
+    }
+
+.update-box__remove {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    }
