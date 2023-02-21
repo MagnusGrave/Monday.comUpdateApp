@@ -4,20 +4,21 @@
 
 import React from "react";
 import "./profile-bubble.css";
+import profileImg from "../../images/profileImg.png";
 
-const ProfileBubble = ({ name, color }) => {
-    return (
-//displays users name and profile picture
-        <div className="profile-bubble">
-            <div className="profile-bubble__img">
-                {TODO ("Display Users Profile Image") }
-            </div>
-            <div className="profile-bubble__text">
-                {TODO ("Display Name of User")}
-                {name}
-            </div>
+const ProfileBubble = ({ name }) => {
+  return (
+    //displays users name and profile picture
+    <div className="container">
+      <div className="row">
+        <div className="col-8 d-flex">
+          <img className="w-25" src={profileImg} alt="profile" />
+          <div className="d-flex align-items-center ps-3">{name}</div>
         </div>
-    );
-    };
+        
+      </div>
+    </div>
+  );
+};
 
 export default ProfileBubble;
